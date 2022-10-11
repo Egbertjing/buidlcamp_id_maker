@@ -1,14 +1,35 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.config.json"
-    },
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.vitest.json"
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "strict": false,
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    "baseUrl": "./",
+    "paths": {
+      "@": ["."],
+      "@/*": ["./*"]
     }
-  ]
+  },
+  "include": ["./**/*"]
 }
+
+// {
+//   "files": [],
+//   "references": [
+//     {
+//       "path": "./tsconfig.config.json"
+//     },
+//     {
+//       "path": "./tsconfig.app.json"
+//     },
+//     {
+//       "path": "./tsconfig.vitest.json"
+//     }
+//   ]
+// }
