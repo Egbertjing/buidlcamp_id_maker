@@ -54,7 +54,7 @@
 
   border: 1px solid darkgray;
   background: cornsilk;
-  font-size: 10px;
+  font-size: 16px;
   width: 37px;
   height: 44px;
   border-radius: 3px 3px 3px 3px;
