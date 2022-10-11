@@ -9,7 +9,8 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 export default defineConfig({
   server: {
     port: 3610,
-    host: 'buidlcamp.web3edu.xyz',
+    host: '0.0.0.0',
+    // https: true,
     // https: {
     //   key: fs.readFileSync('./__web3edu_xyz.p7b'),
     //   cert: fs.readFileSync('./__web3edu_xyz.crt')
