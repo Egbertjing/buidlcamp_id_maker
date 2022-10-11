@@ -8,10 +8,9 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      You've taken your first step into the cryptocurrency world.
+      You've taken your first step into the web3.0 world.
       What's next?
     </h3>
-    
   </div>
 </template>
 

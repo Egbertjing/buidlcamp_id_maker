@@ -65,7 +65,7 @@
 
 <template>
   <div class="about" v-if="!show_id">
-    <h2 style="margin-left:20px;">Enter your name and we have prepared a little gift for you</h2>
+    <h2 style="margin-left:20px;">Enter your name and we have prepared a small gift for you</h2>
     <div class="display:inline;">
       <input
         id="content"
@@ -103,7 +103,7 @@
       </div>
     </div>
 
-    <h4 style="margin-top:30px;">Remember to take a !!Screenshot!!</h4>
+    <h4 style="margin-top:30px;">Remember to take a Screenshot</h4>
   </div>
 </template>
 
