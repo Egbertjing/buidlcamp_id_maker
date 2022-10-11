@@ -46,6 +46,7 @@
   <div class="about" v-if="show_id">
     <h1>Your Buidlcamp ID is</h1>
     <h1> {{result.Buidlcamp_list[0]['user_id']}} </h1>
+    <h2>(This id will only show you one time, remember to take a !!Screenshot!!)</h2>
   </div>
 </template>
 
