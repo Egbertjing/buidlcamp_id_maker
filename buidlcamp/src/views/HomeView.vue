@@ -54,7 +54,7 @@
 
   border: 1px solid darkgray;
   background: cornsilk;
-  font-size: 28px;
+  font-size: 10px;
   width: 37px;
   height: 44px;
   border-radius: 3px 3px 3px 3px;
@@ -103,7 +103,7 @@
       </div>
     </div>
 
-    <h4 style="margin-top:30px;">(This id will only show you one time, remember to take a !!Screenshot!!)</h4>
+    <h4 style="margin-top:30px;">Remember to take a !!Screenshot!!</h4>
   </div>
 </template>
 
