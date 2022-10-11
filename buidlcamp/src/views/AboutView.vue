@@ -28,26 +28,6 @@
 </style>
 
 <template>
-  <div class="about" v-if="!show_id">
-    <h1>Enter your name and we prepare a little gift for you</h1>
-    <div class="display:inline;">
-      <input
-        id="content"
-        class="block type_box mt-10px"
-        maxLength="64"
-        placeholder="Add your Name..."
-        style="display:block;width:400px; margin-top:20px;margin-bottom:20px;" 
-      />
-      <div class="mt-10px" >
-        <img  id="type" src="@/assets/confirm_dark.svg" width="80" class="icon" @click="name_confirm()"/>
-      </div>
-    </div>
-  </div>
-  <div class="about" v-if="show_id">
-    <h1>Your Buidlcamp ID is</h1>
-    <h1> {{result.Buidlcamp_list[0]['user_id']}} </h1>
-    <h2>(This id will only show you one time, remember to take a !!Screenshot!!)</h2>
-  </div>
 </template>
 
 <script>

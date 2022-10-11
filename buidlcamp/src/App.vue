@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/nft_icon3.webp" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="Welcome to Buidlcamp" />
+      <HelloWorld msg="Welcome to Buidlcamp"/>
     </div>
   </header>
 </template>
@@ -23,6 +23,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  margin-top: 40px
 }
 
 nav {
